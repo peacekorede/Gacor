@@ -1,173 +1,135 @@
-.body{
+body{
     margin: 0px;
-    color: white;
-    background-color: black;
+    color: rgb(41, 204, 204);
+    background-color: rgb(37, 37, 37);
     font-family: sans-serif;
 }
-
-
-
-#page-wrapper{
-    padding: 5px 8%;
+.page_wrapper{
+    margin: 3rem 7rem;
 }
-
-
-
-.nav-bar{
-    color: goldenrod;
+#page_header{
     display: flex;
     justify-content: space-between;
-    margin: 36px 0;
-    padding-left: 2px;
     font-size: 20px;
-    margin-bottom: 200px;
-    margin-right: 30px;
-    
-   
+    max-width: 90%;
 }
 
+.header{
+   color: goldenrod;
+}
  
 .menu{
     display: flex;
-    list-style: none;
-    font-size: 17px;
-    padding-right: 5px;
-    margin-top: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    font: 17px  Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(41, 204, 204);
+    align-self: center;
+    font-weight: 799;
 }
-
-
 
 .place{
-   margin-right: 16px;
-    padding-right: 3px;
+    color: rgb(41, 204, 204);
+    text-decoration: none;
+    padding-right: 0.9rem;
 }
 
-
-
-.woods{
-    color: white;
-
-}
-
-/*.input{
-    border: 2px solid white;
-    border-radius: 1px;
-}
-*/
 
 #extra{
-    margin-left: 370px;
-    margin-top: -20px;
+    color:rgb(41, 204, 204);
+    text-decoration: none;
+    padding-left: 0.9rem;
 }
 
-.main{
-    margin-left: 125px;
+.info_header{
+   margin-top: 7rem;
     padding-bottom: 45px;
     font-size: 29px;
     font-family: Tahoma;
-    margin-top: 0px;
+    font-weight: 799;
 }
 
-
-
-.fun{
+.info{
     display: flex;
     justify-content: space-between;
-    
-    margin-left: 130px;
+    font-weight: 599;
 }
 
-
-.col{
+.info_intro{
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 
-.con{
+.info_1{
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 
 
-.con-sen{
+.info_2{
     font-size: 18px;
     word-spacing: 4%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
 }
 
 #img{
-    width: 52rem;
-    margin-left: 5rem;
+   margin-top: -10rem;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 10rem;
 }
 
 .btn{
-    border: 1px solid white;
-    padding: 7px;
-    padding-left: 12px;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 35px;
-    margin-left: 3px;
-    background-color: white;
-    color: black;
+   padding: 0.4rem  1.6rem;
+   border-radius: 2rem;
+   color: rgb(41, 204, 204);
+   border: 7px solid rgb(196, 145, 145);
+   background-color: rgb(37, 37, 37);
 }
 
-
-#btn-1{
-    margin-left: 150px;
+.btn_2{
+    padding: 0.4rem 1.6rem;
+    border-radius: 2rem;
+    color: rgb(41, 204, 204);
+    background-color: rgb(37, 37, 37);
+    border: 7px solid rgb(196, 145, 145);
 }
 
-.btn-5{
- border: 1px solid white;
-          padding: 7px;
-        padding-left: 12px;
-        border-radius: 5px;
-        margin-top: 20px;
-        
-    }
-
-
-    
- 
-       
- 
-
- 
 /*------- misson----*/
 
-.ssoi{
-    margin-top: 10px;
-    border: 4px solid gold;
-    margin-left: 126px;
-    width: 280px;
-    margin-bottom: 70px;
-    padding: 20px;
+.message_header{
+    border: 7px solid rgb(196, 145, 145);
+    margin:3rem 34rem;
+    width: 10%;
+    padding: 0.2rem 3rem;
     border-radius: 8px;
-    text-align: center;
 }
 
-.mis{
-    width: 25%;
+.message_container{
+    display: flex;
+    margin:3rem 0rem;
+}
+
+.message{
+   width: 25%;
    padding-top: 10px;
-   border: 5px solid white;
-    font-size: 23px;
-    margin-top: 120px;
+   border: 7px solid rgb(196, 145, 145);
+   font-size: 23px;
+   margin-left: 5rem;
    padding-right: auto;
    text-align: center;
    word-spacing: 2%;
-    margin-left: 90px;
-    border-radius: 8px;
-    margin-bottom: 1rem;
+   border-radius: 8px;
+    
 }
 
-.lawyer{
-    display: flex;
+.contact_box{
+    width: 250px;
+    border: 7px solid rgb(196, 145, 145);
+    border-radius: 10px;
+    padding: 1% 1%;
+    margin-left: 32rem;
+    text-align: center;
 }
 
 /*------- Footer --------*/
@@ -178,80 +140,42 @@
     padding: 30px 0;
 }
 
-
-/*-- --- Call To Action --------*/
-
-.cta{
-    margin-left: 527px;
-    width: 250px;
-    border: 7px solid red;
-    border-radius: 10px;
-    padding: 1% 1%;
-    text-align: center;
-}
-
-
-
-
-.hero-bn{
-    padding-top: 2%;
-}
-
 .end{
-      margin-left: 25px;
     text-align: center;
 }
-
-.fa-solid {
-    width: 80px;
-}
-
-
-
-
-
-
 
 @media  (max-width:480px) and (min-width:1px){ 
     .body{
     background-color: salmon;
-     color: oldlace;
-  
+    color: oldlace;
 }
-
 
 .nav-bar{
     display: block;
     padding-right: 20px;
-        font-size: 18px;
-      display: block;
+    font-size: 18px;
+    display: block;
 }
-
-
 
 .nav-bar{
     display: block;
     padding-right: 20px;
-        font-size: 18px;
-      display: block;
+    font-size: 18px;
+    display: block;
 }
-
 
 .place{
     font-size: 11px;
     color: red;
     display: block;
-  
 }
 
 .main{
-    font-size: 24px;
+  font-size: 24px;
   padding-left: 47px;
-   
 }
 
 .fun{
-
     padding-left: 44px; 
     font-size: 12px;
 }
@@ -266,51 +190,41 @@
 
 .btn{
     margin-left: -0px;
-   
 }
 #btn-1{
    margin-left: 50px;
 }
 
 .ssoi{
-    
-       margin-left: 44px;
-       width: 150px;
+     margin-left: 44px;
+     width: 150px;
 }
 
 .mis{
     width: 270px;
-  
     margin-left: 37px;
-  
     padding-left: 20px;
 }
 
- .mis-col
-    {
+ .mis-col{
         width: 270px;
-        
         margin-left: 42px;
         margin-top: 5px;
         padding-left: 20px;
  }
 
- .mis-col3
- {
+ .mis-col3{
      width: 270px;
-  
      margin-left: 38px;
      margin-top: 5px;
      padding-left: 20px;
  }
 
  .footer{
-   
     margin-left: 89px;
     width: 200px;
     display: none;
 }
-
 
 .cta {
     margin-left:-0px;
@@ -325,17 +239,13 @@
 }
 
 
-
-
-
 @media  (max-width:768px) and (min-width:481px){
 
     .body{
         background-color: rgb(199, 153, 161);
         margin-top: 40px;
         padding-left: 100px;
-        margin-right: 900px;
-        
+        margin-right: 900px; 
     }
 
     .nav-bar{
@@ -343,16 +253,14 @@
         font-size: 32px;
       display: block;
       color: white;
-
     }
 
     .place{
         font-size: 20px;
         display: block;
-        color: white;
-      
-      
+        color: white;      
     }
+
     .woods{
      display: none;
     }
@@ -361,7 +269,6 @@
       display: none;
     }
     
-
     .main{
         margin-left: 17px;
         border: 3px solid white;
@@ -499,14 +406,12 @@
     .mis-col{
         margin-top: 50px;
         width: 540px;
-       
         margin-left: 130px;
     }
 
     .mis-col3{
         width: 540px;
         margin-top: 50px;
-      
         margin-left: 130px;
     }
  }
