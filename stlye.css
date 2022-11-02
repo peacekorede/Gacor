@@ -150,19 +150,13 @@ body{
     color: oldlace;
 }
 
-.nav-bar{
+#page_header{
     display: block;
     padding-right: 20px;
     font-size: 18px;
     display: block;
 }
 
-.nav-bar{
-    display: block;
-    padding-right: 20px;
-    font-size: 18px;
-    display: block;
-}
 
 .place{
     font-size: 11px;
@@ -170,11 +164,14 @@ body{
     display: block;
 }
 
-.main{
+.info_header{
   font-size: 24px;
   padding-left: 47px;
 }
-
+#extra{
+    display: none;
+  }
+  
 .fun{
     padding-left: 44px; 
     font-size: 12px;
@@ -184,9 +181,6 @@ body{
  display: none;
 }
 
-#extra{
-  display: none;
-}
 
 .btn{
     margin-left: -0px;
@@ -226,7 +220,7 @@ body{
     display: none;
 }
 
-.cta {
+.contact_box {
     margin-left:-0px;
     margin-left: 49px;
 }
